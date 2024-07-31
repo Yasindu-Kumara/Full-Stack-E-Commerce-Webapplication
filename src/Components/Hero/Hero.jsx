@@ -7,22 +7,22 @@ import hero_imag from '../Assets/hero_image.png';
 export const Hero = () => {
   return (
       <div className='hero'>
-      <div class="hero-left">
+      <div className="hero-left">
         <h2>NEW ARRIVALS ONLY</h2>
         <div>
-          <div class="hand-hand-icon">
+          <div className="hero-hand-icon">
             <p>new</p>
             <img src={hand_icon} alt=""/>
           </div>
           <p>collections</p>
           <p>for everyone</p>
         </div>
-        <div class="hero-latest-btn">
+        <div className="hero-latest-btn">
           <div>Latest Collections</div>
           <img src={arrow_icon} alt=""/>
         </div>
       </div>
-      <div class="hero-right">
+      <div className="hero-right">
         <img src={hero_imag} alt=""/>
       </div>
     </div>

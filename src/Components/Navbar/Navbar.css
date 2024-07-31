@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-around;
-  padding: 16px;
+  /* padding: 16px; */
   box-shadow: 0 1px 3px black;
 }
 
@@ -13,7 +13,7 @@
 
 .nav-logo p {
   color: #171717;
-  font-size: 38px;
+  font-size: 25px;
   font-weight: 600;
 }
 
@@ -23,7 +23,7 @@
   list-style: none;
   gap: 50px;
   color: #626262;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
 }
 
@@ -47,12 +47,12 @@
 .nav-login-cart {
   display: flex;
   align-items: center;
-  gap: 45px;
+  gap: 40px;
 }
 
 .nav-login-cart button {
-  width: 157px;
-  height: 58px;
+  width: 130px;
+  height: 40px;
   outline: none;
   border: 1px solid #7a7a7a;
   border-radius: 75px;
