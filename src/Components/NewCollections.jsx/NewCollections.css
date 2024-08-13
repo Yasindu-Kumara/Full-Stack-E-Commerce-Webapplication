@@ -1,0 +1,35 @@
+.newcollections-hedding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.newcollections h1{
+    color: #171717;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.newcollections hr {
+    width: 200px;
+    height: 3px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.collections{
+    margin-top: 50px;
+    margin-right: 140px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+
+
+/* .newcollections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+} */
