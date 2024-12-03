@@ -5,12 +5,12 @@ import { Item } from "../Item/Item";
 
 export const NewCollections = () => {
   return (
-    <div class="newcollections">
-      <div class="newcollections-hedding">
+    <div className="newcollections">
+      <div className="newcollections-hedding">
       <h1>NEW COLLECTIONS</h1>
         <hr />
       </div>
-      <div class="collections">
+      <div className="collections">
         {new_collection.map((item, i) => {
           return <Item
               key={i}
