@@ -19,8 +19,8 @@ export const ProductDisplay = (props) => {
         </div>
       </div>
       <div class="productdisplay-right">
-        <h1>{product.name}</h1>
-        <div class="productdisplay-right-star">
+        <h2>{product.name}</h2>
+        <div class="productdisplay-right-stars">
           <img src={star_icon} alt="" />
           <img src={star_icon} alt="" />
           <img src={star_icon} alt="" />
@@ -34,14 +34,11 @@ export const ProductDisplay = (props) => {
         </div>
         <div class="productdisplay-right-description">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries.
+          industry. Lorem Ipsum has been the industry's. 
         </div>
         <div class="productdisplay-right-size">
           <h1>Select size</h1>
-          <div class="productdisplay-right-size">
+          <div class="productdisplay-right-sizes">
             <div>S</div>
             <div>M</div>
             <div>L</div>
